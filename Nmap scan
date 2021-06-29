@@ -1,0 +1,207 @@
+SSLyze - Checks for Secure Renegotiation Support and Client Renegotiation.
+------------------------
+
+
+ CHECKING HOST(S) AVAILABILITY
+ -----------------------------
+
+   doxbin.org:443                       => 193.31.15.1 
+
+
+
+
+ SCAN RESULTS FOR DOXBIN.ORG:443 - 193.31.15.1
+ ---------------------------------------------
+
+ * Session Renegotiation:
+       Client Renegotiation DoS Attack:   OK - Not vulnerable
+       Secure Renegotiation:              OK - Supported
+
+
+ SCAN COMPLETED IN 1.91 S
+ ------------------------
+
+
+Nmap - Performs a Full TCP Port Scan
+------------------------
+
+Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-27 02:17 -04
+Nmap scan report for doxbin.org (193.31.15.1)
+Host is up (0.066s latency).
+rDNS record for 193.31.15.1: bytefend-networks
+Not shown: 62478 closed ports, 3028 filtered ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE
+22/tcp    open  ssh
+80/tcp    open  http
+443/tcp   open  https
+2053/tcp  open  knetd
+2083/tcp  open  radsec
+2087/tcp  open  eli
+2096/tcp  open  nbx-dir
+5501/tcp  open  fcp-addr-srvr2
+6969/tcp  open  acmsoda
+7800/tcp  open  asr
+7801/tcp  open  ssp-client
+7802/tcp  open  vns-tp
+7803/tcp  open  unknown
+7804/tcp  open  unknown
+8443/tcp  open  https-alt
+8880/tcp  open  cddbp-alt
+17000/tcp open  unknown
+17001/tcp open  unknown
+17002/tcp open  unknown
+17003/tcp open  unknown
+17004/tcp open  unknown
+17005/tcp open  unknown
+17006/tcp open  unknown
+17007/tcp open  isode-dua
+17008/tcp open  unknown
+17009/tcp open  unknown
+17010/tcp open  unknown
+22334/tcp open  unknown
+25565/tcp open  minecraft
+
+Nmap done: 1 IP address (1 host up) scanned in 80.79 seconds
+
+
+Nikto - Checks the Domain Headers.
+------------------------
+
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          193.31.15.1
++ Target Hostname:    doxbin.org
++ Target Port:        80
++ Start Time:         2021-06-27 02:19:09 (GMT-4)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ 259 requests: 0 error(s) and 3 item(s) reported on remote host
++ End Time:           2021-06-27 02:19:35 (GMT-4) (26 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+
+
+AMass - Brutes Domain for Subdomains
+------------------------
+
+cdn.doxbin.org
+
+OWASP Amass v3.12.3                               https://github.com/OWASP/Amass
+--------------------------------------------------------------------------------
+1 names discovered - api: 1
+--------------------------------------------------------------------------------
+ASN: 212238 - CDNEXT
+	193.31.15.0/24    	1    Subdomain Name(s)
+
+The enumeration has finished
+Discoveries are being migrated into the local database
+
+
+Fierce Subdomains Bruter - Brute Forces Subdomain Discovery.
+------------------------
+
+NS: fortmega.venus.orderbox-dns.com. fortmega.mars.orderbox-dns.com. fortmega.earth.orderbox-dns.com. fortmega.mercury.orderbox-dns.com.
+SOA: fortmega.mars.orderbox-dns.com. (162.251.82.125)
+Zone: failure
+Wildcard: failure
+Found: cdn.doxbin.org. (193.31.15.1)
+Nearby:
+{'193.31.15.1': 'bytefend-networks.',
+ '193.31.15.2': 'bytefend-networks.',
+ '193.31.15.3': 'bytefend-networks.',
+ '193.31.15.4': 'bytefend-networks.',
+ '193.31.15.5': 'bytefend-networks.',
+ '193.31.15.6': 'bytefend-networks.'}
+
+
+WhatWeb - Checks for X-XSS Protection Header
+------------------------
+
+ERROR Opening: http://doxbin.org - execution expired
+
+
+Nmap - Fast Scan [Only Few Port Checks]
+------------------------
+
+Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-27 02:32 -04
+Nmap scan report for doxbin.org (193.31.15.1)
+Host is up (0.060s latency).
+rDNS record for 193.31.15.1: bytefend-networks
+Not shown: 94 closed ports, 2 filtered ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+8443/tcp open  https-alt
+
+Nmap done: 1 IP address (1 host up) scanned in 2.65 seconds
+
+
+DNSMap - Brutes Subdomains.
+------------------------
+
+dnsmap 0.35 - DNS Network Mapper
+
+[+] searching (sub)domains for doxbin.org using built-in wordlist
+[+] using maximum random delay of 10 millisecond(s) between requests
+
+test.doxbin.org
+IP address #1: 193.31.15.1
+
+[+] 1 (sub)domains and 1 IP address(es) found
+[+] completion time: 1588 second(s)
+
+
+Host - Checks for existence of IPV6 address.
+------------------------
+
+doxbin.org has address 193.31.15.1
+doxbin.org mail is handled by 0 mail.ctemplar.com.
+
+
+XSSer - Checks for Cross-Site Scripting [XSS] Attacks.
+------------------------
+
+===========================================================================
+
+XSSer v1.8[4]: "The HiV€!" - (https://xsser.03c8.net) - 2010/2021 -> by psy
+
+===========================================================================
+Testing [Full XSS audit]... ;-)
+===========================================================================
+
+[Info] The following actions will be performed at the end:
+
+  1- Output with detailed statistics
+
+  2- Export results to files: 
+
+     - a) XSSreport.raw 
+     - b) XSSer_<target>_<datetime>.xml
+
+-------------------------
+
+[Info] REQUEST: Cross Site Tracing (XST) Vulnerability...
+
+
+[Error] WARNING: Some internal errors getting -targets-
+
+
+[Error] Not any valid source provided to start a test... Aborting!
+
+===========================================================================
+Traceback (most recent call last):
+  File "/usr/share/xsser/xsser", line 35, in <module>
+    app.run()
+  File "/usr/share/xsser/core/main.py", line 3050, in run
+    self.print_results()
+  File "/usr/share/xsser/core/main.py", line 3240, in print_results
+    fout = open("XSSreport.raw", "w") # write better than append
+PermissionError: [Errno 13] Permission denied: 'XSSreport.raw'
