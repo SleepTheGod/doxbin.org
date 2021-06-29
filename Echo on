@@ -1,0 +1,2 @@
+➜  ~ echo "doxbin.org/jquery.min.js" | hexdump -C
+00000000  68 74 74 70 73 3a 2f 2f  64 6f 78 62 69 6e 2e 6f  |https://doxbin.o|
