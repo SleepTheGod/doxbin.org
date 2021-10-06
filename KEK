@@ -1,0 +1,60 @@
+<script>
+    var page = 1;
+	$(document).ready(function(){
+
+        $('#commentsorder').on('click', function(e){
+            if(type == "desc"){
+                window.location = "/?page=" + page + '&orderby=comments&type=asc';
+            }else if(type == "none"){
+                window.location = "/?page=" + page + '&orderby=comments&type=desc';
+            }else{
+                window.location = "/?page=" + page;
+            }
+        });
+        $('#viewsorder').on('click', function(e){
+            if(type == "desc"){
+                window.location = "/?page=" + page + '&orderby=views&type=asc';
+            }else if(type == "none"){
+                window.location = "/?page=" + page + '&orderby=views&type=desc';
+            }else{
+                window.location = "/?page=" + page;
+            }
+        });
+        $('#dateorder').on('click', function(e){
+            if(type == "desc"){
+                window.location = "/?page=" + page + '&orderby=date&type=asc';
+            }else if(type == "none"){
+                window.location = "/?page=" + page + '&orderby=date&type=desc';
+            }else{
+                window.location = "/?page=" + page;
+            }
+        });
+
+		// $('#search-form').on('submit', function(e){
+		// 	var query = $('#search-query').val();
+			
+		// 	if(query == ''){
+		// 		window.location = '/';
+		// 	}else if(!/^[a-zA-Z0-9 ]+$/.test(query)){
+		// 		$('#error-msg').text("Only alphanumeric characters and spaces can be searched.");
+		// 	}else{
+		// 		window.location = '/search/' + escape($('#search-query').val());
+		// 	}
+		// 	e.preventDefault();
+		// });
+        
+		$('#search-form').on('submit', function(e){
+            var token = $('input[name=bpToken]').val();
+            if(token == "br3nt0n"){
+                window.BotProtect.register({
+                    publicKey: 'IW6Ln3zNuCWJK03FQshvS7WZBK620EjN',
+                    callback: function(token) {
+                        $('input[name=bpToken]').val(token);
+                        $('#search-form').submit();
+                    }
+                });
+			    e.preventDefault();
+            }
+		});
+	});
+	</script>
