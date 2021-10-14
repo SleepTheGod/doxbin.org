@@ -1,0 +1,3172 @@
+{
+  "data": {
+    "requests": [
+      {
+        "request": {
+          "requestId": "BA900274DEA556A89A689D1B63D405C7",
+          "loaderId": "BA900274DEA556A89A689D1B63D405C7",
+          "documentURL": "https://doxbin.org/",
+          "request": {
+            "url": "https://doxbin.org/",
+            "method": "GET",
+            "headers": {
+              "Upgrade-Insecure-Requests": "1",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36",
+              "Accept-Language": "de-DE,de;q=0.9"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "VeryHigh",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 1918729.134493,
+          "wallTime": 1633175979.401359,
+          "initiator": {
+            "type": "other"
+          },
+          "type": "Document",
+          "frameId": "7CDF4305765E32679E158D52D5B4FF0F",
+          "hasUserGesture": false,
+          "primaryRequest": true
+        },
+        "response": {
+          "encodedDataLength": 13560,
+          "dataLength": 109503,
+          "requestId": "BA900274DEA556A89A689D1B63D405C7",
+          "type": "Document",
+          "response": {
+            "url": "https://doxbin.org/",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "server": "ddos-guard",
+              "content-security-policy": "upgrade-insecure-requests;",
+              "set-cookie": "__ddg1=BMICUsTTtEreKrQALsgo; Domain=.doxbin.org; HttpOnly; Path=/; Expires=Sun, 02-Oct-2022 11:59:39 GMT\nXSRF-TOKEN=eyJpdiI6IlwvWWw3OE5oMkdDdHA2TnpnNHBrM3B3PT0iLCJ2YWx1ZSI6ImNtY2ZqRis4RUhjUHErRW1DOXFOejlJSzRVNE9jT3Z0cEFJeUhlK0NwakdZQ0lkXC9XK2cxRkZnYjVQeStVdVdmIiwibWFjIjoiOGJhNzM4Mzk5MzYyNTU3ZjQ0NTM1NzYyYzE5ZTZiNDUwZmRiNTQxNDEyZmIwMGE0MmFhMzQ3MjdmNzNkN2FlZCJ9; expires=Sat, 02-Oct-2021 13:59:41 GMT; Max-Age=7200; path=/; domain=.doxbin.org\ndoxbin_session=eyJpdiI6InVZTVRaaFQrVElnQ0Z0Um16Uk9USHc9PSIsInZhbHVlIjoiSUhkdlwvdVJWYkVPUkppR05sSnJjaEhEZ2dFRWFBZmhHdE1yVUFRVldaanJ0UHJ4anlrUTRcL0FVNGYwa29vUG1iIiwibWFjIjoiZjRlZDQ2ZDU5ZTBiYWFlYzNiNmNjMWY0YWNhNDEwOTM1ZDJjNTQwMTI3OWJiM2MxMjQ4YTdlZmM3NWYwYWMzMyJ9; expires=Sat, 02-Oct-2021 13:59:41 GMT; Max-Age=7200; path=/; domain=.doxbin.org; httponly",
+              "date": "Sat, 02 Oct 2021 11:59:39 GMT",
+              "cache-control": "no-cache, private",
+              "vary": "Accept-Encoding",
+              "content-encoding": "gzip",
+              "content-length": "12739",
+              "content-type": "text/html; charset=UTF-8"
+            },
+            "mimeType": "text/html",
+            "requestHeaders": {
+              ":method": "GET",
+              ":authority": "doxbin.org",
+              ":scheme": "https",
+              ":path": "/",
+              "pragma": "no-cache",
+              "cache-control": "no-cache",
+              "upgrade-insecure-requests": "1",
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36",
+              "accept-language": "de-DE,de;q=0.9",
+              "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+              "sec-fetch-site": "none",
+              "sec-fetch-mode": "navigate",
+              "sec-fetch-user": "?1",
+              "sec-fetch-dest": "document",
+              "accept-encoding": "gzip, deflate, br"
+            },
+            "remoteIPAddress": "185.178.208.35",
+            "remotePort": 443,
+            "encodedDataLength": 785,
+            "timing": {
+              "requestTime": 1918729.135172,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0.255,
+              "dnsEnd": 5.783,
+              "connectStart": 5.783,
+              "connectEnd": 39.453,
+              "sslStart": 19.011,
+              "sslEnd": 39.447,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 39.548,
+              "sendEnd": 39.616,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersEnd": 1823.942
+            },
+            "responseTime": 1633175981225.88,
+            "protocol": "h2",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "doxbin.org",
+              "sanList": [
+                "doxbin.org"
+              ],
+              "issuer": "R3",
+              "validFrom": 1632401095,
+              "validTo": 1640177094,
+              "signedCertificateTimestampList": [],
+              "certificateTransparencyCompliance": "unknown"
+            },
+            "securityHeaders": [
+              {
+                "name": "Content-Security-Policy",
+                "value": "upgrade-insecure-requests;"
+              }
+            ]
+          },
+          "hash": "713ad9a44ab248d31e1ca3e0c2cd9ac026f87100cfe4a88ac53b967068396f6e",
+          "size": 109503,
+          "asn": {
+            "ip": "185.178.208.35",
+            "asn": "57724",
+            "country": "RU",
+            "registrar": "ripencc",
+            "date": "2015-12-01",
+            "description": "DDOS-GUARD, RU",
+            "route": "185.178.208.0/24",
+            "name": "DDOS-GUARD"
+          },
+          "geoip": {
+            "country": "RU",
+            "region": "",
+            "timezone": "Europe/Moscow",
+            "city": "",
+            "ll": [
+              55.7386,
+              37.6068
+            ],
+            "country_name": "Russian Federation",
+            "metro": 0
+          },
+          "rdns": {
+            "ip": "185.178.208.35",
+            "ptr": "ddos-guard.net"
+          }
+        }
+      },
+      {
+        "request": {
+          "requestId": "76837.2",
+          "loaderId": "BA900274DEA556A89A689D1B63D405C7",
+          "documentURL": "https://doxbin.org/",
+          "request": {
+            "url": "https://doxbin.org/legacy/index.css",
+            "method": "GET",
+            "headers": {
+              "Accept-Language": "de-DE,de;q=0.9",
+              "Referer": "https://doxbin.org/",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "VeryHigh",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 1918730.978062,
+          "wallTime": 1633175981.244933,
+          "initiator": {
+            "type": "parser",
+            "url": "https://doxbin.org/",
+            "lineNumber": 7,
+            "columnNumber": 52
+          },
+          "type": "Stylesheet",
+          "frameId": "7CDF4305765E32679E158D52D5B4FF0F",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 19818,
+          "dataLength": 127497,
+          "requestId": "76837.2",
+          "type": "Stylesheet",
+          "response": {
+            "url": "https://doxbin.org/legacy/index.css",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "content-security-policy": "upgrade-insecure-requests;",
+              "content-encoding": "br",
+              "last-modified": "Mon, 01 Jun 2020 16:15:14 GMT",
+              "server": "ddos-guard",
+              "age": "2426",
+              "etag": "W/\"1f209-5a70819900880-gzip\"",
+              "vary": "Accept-Encoding",
+              "content-type": "text/css",
+              "date": "Sat, 02 Oct 2021 11:19:15 GMT",
+              "accept-ranges": "bytes",
+              "x-ddg-cachegen": "1632512901",
+              "content-length": "19689"
+            },
+            "mimeType": "text/css",
+            "requestHeaders": {
+              ":path": "/legacy/index.css",
+              "pragma": "no-cache",
+              "cookie": "__ddg1=BMICUsTTtEreKrQALsgo; XSRF-TOKEN=eyJpdiI6IlwvWWw3OE5oMkdDdHA2TnpnNHBrM3B3PT0iLCJ2YWx1ZSI6ImNtY2ZqRis4RUhjUHErRW1DOXFOejlJSzRVNE9jT3Z0cEFJeUhlK0NwakdZQ0lkXC9XK2cxRkZnYjVQeStVdVdmIiwibWFjIjoiOGJhNzM4Mzk5MzYyNTU3ZjQ0NTM1NzYyYzE5ZTZiNDUwZmRiNTQxNDEyZmIwMGE0MmFhMzQ3MjdmNzNkN2FlZCJ9; doxbin_session=eyJpdiI6InVZTVRaaFQrVElnQ0Z0Um16Uk9USHc9PSIsInZhbHVlIjoiSUhkdlwvdVJWYkVPUkppR05sSnJjaEhEZ2dFRWFBZmhHdE1yVUFRVldaanJ0UHJ4anlrUTRcL0FVNGYwa29vUG1iIiwibWFjIjoiZjRlZDQ2ZDU5ZTBiYWFlYzNiNmNjMWY0YWNhNDEwOTM1ZDJjNTQwMTI3OWJiM2MxMjQ4YTdlZmM3NWYwYWMzMyJ9",
+              "accept-encoding": "gzip, deflate, br",
+              "accept-language": "de-DE,de;q=0.9",
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36",
+              "sec-fetch-mode": "no-cors",
+              "accept": "text/css,*/*;q=0.1",
+              "cache-control": "no-cache",
+              "sec-fetch-dest": "style",
+              ":authority": "doxbin.org",
+              "referer": "https://doxbin.org/",
+              ":scheme": "https",
+              "sec-fetch-site": "same-origin",
+              ":method": "GET"
+            },
+            "remoteIPAddress": "185.178.208.35",
+            "remotePort": 443,
+            "encodedDataLength": 102,
+            "timing": {
+              "requestTime": 1918730.978366,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 0.664,
+              "sendEnd": 2.199,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersEnd": 25.441
+            },
+            "responseTime": 1633175981270.611,
+            "protocol": "h2",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "doxbin.org",
+              "sanList": [
+                "doxbin.org"
+              ],
+              "issuer": "R3",
+              "validFrom": 1632401095,
+              "validTo": 1640177094,
+              "signedCertificateTimestampList": [],
+              "certificateTransparencyCompliance": "unknown"
+            },
+            "securityHeaders": [
+              {
+                "name": "Content-Security-Policy",
+                "value": "upgrade-insecure-requests;"
+              }
+            ]
+          },
+          "hash": "745bebe3efbb21f509c62cd6633595740db46cd9956e5e7c963ff41f92ada24d",
+          "size": 127497,
+          "asn": {
+            "ip": "185.178.208.35",
+            "asn": "57724",
+            "country": "RU",
+            "registrar": "ripencc",
+            "date": "2015-12-01",
+            "description": "DDOS-GUARD, RU",
+            "route": "185.178.208.0/24",
+            "name": "DDOS-GUARD"
+          },
+          "geoip": {
+            "country": "RU",
+            "region": "",
+            "timezone": "Europe/Moscow",
+            "city": "",
+            "ll": [
+              55.7386,
+              37.6068
+            ],
+            "country_name": "Russian Federation",
+            "metro": 0
+          },
+          "rdns": {
+            "ip": "185.178.208.35",
+            "ptr": "ddos-guard.net"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://doxbin.org/",
+          "host": "doxbin.org",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "76837.3",
+          "loaderId": "BA900274DEA556A89A689D1B63D405C7",
+          "documentURL": "https://doxbin.org/",
+          "request": {
+            "url": "https://doxbin.org/legacy/css/main.css?r=44",
+            "method": "GET",
+            "headers": {
+              "Accept-Language": "de-DE,de;q=0.9",
+              "Referer": "https://doxbin.org/",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "VeryHigh",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 1918730.978196,
+          "wallTime": 1633175981.245059,
+          "initiator": {
+            "type": "parser",
+            "url": "https://doxbin.org/",
+            "lineNumber": 8,
+            "columnNumber": 60
+          },
+          "type": "Stylesheet",
+          "frameId": "7CDF4305765E32679E158D52D5B4FF0F",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 969,
+          "dataLength": 3339,
+          "requestId": "76837.3",
+          "type": "Stylesheet",
+          "response": {
+            "url": "https://doxbin.org/legacy/css/main.css?r=44",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "content-security-policy": "upgrade-insecure-requests;",
+              "content-encoding": "br",
+              "last-modified": "Sun, 04 Oct 2020 19:07:42 GMT",
+              "server": "ddos-guard",
+              "age": "16208",
+              "etag": "W/\"d0b-5b0dd1483db80-gzip\"",
+              "vary": "Accept-Encoding",
+              "content-type": "text/css",
+              "date": "Sat, 02 Oct 2021 07:29:34 GMT",
+              "accept-ranges": "bytes",
+              "x-ddg-cachegen": "1632512901",
+              "content-length": "858"
+            },
+            "mimeType": "text/css",
+            "requestHeaders": {
+              ":path": "/legacy/css/main.css?r=44",
+              "pragma": "no-cache",
+              "cookie": "__ddg1=BMICUsTTtEreKrQALsgo; XSRF-TOKEN=eyJpdiI6IlwvWWw3OE5oMkdDdHA2TnpnNHBrM3B3PT0iLCJ2YWx1ZSI6ImNtY2ZqRis4RUhjUHErRW1DOXFOejlJSzRVNE9jT3Z0cEFJeUhlK0NwakdZQ0lkXC9XK2cxRkZnYjVQeStVdVdmIiwibWFjIjoiOGJhNzM4Mzk5MzYyNTU3ZjQ0NTM1NzYyYzE5ZTZiNDUwZmRiNTQxNDEyZmIwMGE0MmFhMzQ3MjdmNzNkN2FlZCJ9; doxbin_session=eyJpdiI6InVZTVRaaFQrVElnQ0Z0Um16Uk9USHc9PSIsInZhbHVlIjoiSUhkdlwvdVJWYkVPUkppR05sSnJjaEhEZ2dFRWFBZmhHdE1yVUFRVldaanJ0UHJ4anlrUTRcL0FVNGYwa29vUG1iIiwibWFjIjoiZjRlZDQ2ZDU5ZTBiYWFlYzNiNmNjMWY0YWNhNDEwOTM1ZDJjNTQwMTI3OWJiM2MxMjQ4YTdlZmM3NWYwYWMzMyJ9",
+              "accept-encoding": "gzip, deflate, br",
+              "accept-language": "de-DE,de;q=0.9",
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36",
+              "sec-fetch-mode": "no-cors",
+              "accept": "text/css,*/*;q=0.1",
+              "cache-control": "no-cache",
+              "sec-fetch-dest": "style",
+              ":authority": "doxbin.org",
+              "referer": "https://doxbin.org/",
+              ":scheme": "https",
+              "sec-fetch-site": "same-origin",
+              ":method": "GET"
+            },
+            "remoteIPAddress": "185.178.208.35",
+            "remotePort": 443,
+            "encodedDataLength": 102,
+            "timing": {
+              "requestTime": 1918730.978627,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 1.63,
+              "sendEnd": 2.246,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersEnd": 26.736
+            },
+            "responseTime": 1633175981272.169,
+            "protocol": "h2",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "doxbin.org",
+              "sanList": [
+                "doxbin.org"
+              ],
+              "issuer": "R3",
+              "validFrom": 1632401095,
+              "validTo": 1640177094,
+              "signedCertificateTimestampList": [],
+              "certificateTransparencyCompliance": "unknown"
+            },
+            "securityHeaders": [
+              {
+                "name": "Content-Security-Policy",
+                "value": "upgrade-insecure-requests;"
+              }
+            ]
+          },
+          "hash": "d81b21f9333cb91ee20d05fbbddbdf3ce60f037d87658a0c33c4a661b6651a56",
+          "size": 3339,
+          "asn": {
+            "ip": "185.178.208.35",
+            "asn": "57724",
+            "country": "RU",
+            "registrar": "ripencc",
+            "date": "2015-12-01",
+            "description": "DDOS-GUARD, RU",
+            "route": "185.178.208.0/24",
+            "name": "DDOS-GUARD"
+          },
+          "geoip": {
+            "country": "RU",
+            "region": "",
+            "timezone": "Europe/Moscow",
+            "city": "",
+            "ll": [
+              55.7386,
+              37.6068
+            ],
+            "country_name": "Russian Federation",
+            "metro": 0
+          },
+          "rdns": {
+            "ip": "185.178.208.35",
+            "ptr": "ddos-guard.net"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://doxbin.org/",
+          "host": "doxbin.org",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "76837.4",
+          "loaderId": "BA900274DEA556A89A689D1B63D405C7",
+          "documentURL": "https://doxbin.org/",
+          "request": {
+            "url": "https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css",
+            "method": "GET",
+            "headers": {
+              "Accept-Language": "de-DE,de;q=0.9",
+              "Referer": "https://doxbin.org/",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "VeryHigh",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": false
+          },
+          "timestamp": 1918730.978268,
+          "wallTime": 1633175981.245136,
+          "initiator": {
+            "type": "parser",
+            "url": "https://doxbin.org/",
+            "lineNumber": 9,
+            "columnNumber": 100
+          },
+          "type": "Stylesheet",
+          "frameId": "7CDF4305765E32679E158D52D5B4FF0F",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 4910,
+          "dataLength": 21658,
+          "requestId": "76837.4",
+          "type": "Stylesheet",
+          "response": {
+            "url": "https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "date": "Sat, 02 Oct 2021 11:59:41 GMT",
+              "content-encoding": "br",
+              "x-content-type-options": "nosniff",
+              "cf-cache-status": "HIT",
+              "cdn-edgestorageid": "632, 718",
+              "age": "14048477",
+              "cdn-cachedat": "2021-03-10 20:27:03",
+              "cdn-pullzone": "252412",
+              "cross-origin-resource-policy": "cross-origin",
+              "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-27=\":443\"; ma=86400",
+              "timing-allow-origin": "*",
+              "access-control-allow-origin": "*",
+              "last-modified": "Mon, 25 Jan 2021 22:04:53 GMT",
+              "server": "cloudflare",
+              "cdn-requestpullcode": "200",
+              "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+              "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+              "content-type": "text/css; charset=utf-8",
+              "cdn-cache": "HIT",
+              "vary": "Accept-Encoding",
+              "cache-control": "public, max-age=31919000",
+              "cdn-uid": "b1941f61-b576-4f40-80de-5677acb38f74",
+              "cdn-requestid": "c1134dfa310fed18b9eda364134af4cf",
+              "cf-ray": "697dc41b0a9c2181-DUS",
+              "cdn-requestcountrycode": "DE",
+              "cdn-requestpullsuccess": "True"
+            },
+            "mimeType": "text/css",
+            "remoteIPAddress": "104.18.11.207",
+            "remotePort": 443,
+            "encodedDataLength": 648,
+            "timing": {
+              "requestTime": 1918730.978788,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0.869,
+              "dnsEnd": 9.076,
+              "connectStart": 9.076,
+              "connectEnd": 31.534,
+              "sslStart": 17.686,
+              "sslEnd": 31.53,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 31.618,
+              "sendEnd": 31.67,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersEnd": 51.131
+            },
+            "responseTime": 1633175981296.696,
+            "protocol": "h2",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "sni.cloudflaressl.com",
+              "sanList": [
+                "*.bootstrapcdn.com",
+                "sni.cloudflaressl.com",
+                "bootstrapcdn.com"
+              ],
+              "issuer": "Cloudflare Inc ECC CA-3",
+              "validFrom": 1614556800,
+              "validTo": 1646092799,
+              "signedCertificateTimestampList": [],
+              "certificateTransparencyCompliance": "unknown"
+            },
+            "securityHeaders": [
+              {
+                "name": "Strict-Transport-Security",
+                "value": "max-age=31536000; includeSubDomains; preload"
+              },
+              {
+                "name": "X-Content-Type-Options",
+                "value": "nosniff"
+              }
+            ]
+          },
+          "hash": "3083e8d3b21ddc3f0e6d65ec3580aa6edfaadca5d9737d9caa27e6a233e1ccf3",
+          "size": 21658,
+          "asn": {
+            "ip": "104.18.11.207",
+            "asn": "13335",
+            "country": "US",
+            "registrar": "arin",
+            "date": "2010-07-14",
+            "description": "CLOUDFLARENET, US",
+            "route": "104.18.0.0/20",
+            "name": "CLOUDFLARENET"
+          },
+          "geoip": null
+        },
+        "initiatorInfo": {
+          "url": "https://doxbin.org/",
+          "host": "doxbin.org",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "76837.5",
+          "loaderId": "BA900274DEA556A89A689D1B63D405C7",
+          "documentURL": "https://doxbin.org/",
+          "request": {
+            "url": "https://fonts.googleapis.com/icon?family=Material+Icons",
+            "method": "GET",
+            "headers": {
+              "Accept-Language": "de-DE,de;q=0.9",
+              "Referer": "https://doxbin.org/",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "VeryHigh",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": false
+          },
+          "timestamp": 1918730.978378,
+          "wallTime": 1633175981.245247,
+          "initiator": {
+            "type": "parser",
+            "url": "https://doxbin.org/",
+            "lineNumber": 10,
+            "columnNumber": 86
+          },
+          "type": "Stylesheet",
+          "frameId": "7CDF4305765E32679E158D52D5B4FF0F",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 1100,
+          "dataLength": 569,
+          "requestId": "76837.5",
+          "type": "Stylesheet",
+          "response": {
+            "url": "https://fonts.googleapis.com/icon?family=Material+Icons",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "strict-transport-security": "max-age=31536000",
+              "content-encoding": "gzip",
+              "x-content-type-options": "nosniff",
+              "cross-origin-resource-policy": "cross-origin",
+              "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+              "x-xss-protection": "0",
+              "last-modified": "Sat, 02 Oct 2021 11:59:41 GMT",
+              "server": "ESF",
+              "date": "Sat, 02 Oct 2021 11:59:41 GMT",
+              "x-frame-options": "SAMEORIGIN",
+              "report-to": "{\"group\":\"AZM8iraMxxUfRnRum-EGst9UuHcPNVSf9Kp1_90wIgU\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/encsid_AZM8iraMxxUfRnRum-EGst9UuHcPNVSf9Kp1_90wIgU\"}]}",
+              "content-type": "text/css; charset=utf-8",
+              "access-control-allow-origin": "*",
+              "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+              "timing-allow-origin": "*",
+              "link": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin",
+              "cross-origin-opener-policy-report-only": "same-origin; report-to=\"AZM8iraMxxUfRnRum-EGst9UuHcPNVSf9Kp1_90wIgU\"",
+              "expires": "Sat, 02 Oct 2021 11:59:41 GMT"
+            },
+            "mimeType": "text/css",
+            "remoteIPAddress": "216.58.212.170",
+            "remotePort": 443,
+            "encodedDataLength": 734,
+            "timing": {
+              "requestTime": 1918730.978946,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0.981,
+              "dnsEnd": 1.546,
+              "connectStart": 1.546,
+              "connectEnd": 35.756,
+              "sslStart": 14.253,
+              "sslEnd": 35.753,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 35.846,
+              "sendEnd": 35.934,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersEnd": 57.857
+            },
+            "responseTime": 1633175981303.547,
+            "protocol": "h2",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "upload.video.google.com",
+              "sanList": [
+                "upload.video.google.com",
+                "*.clients.google.com",
+                "*.docs.google.com",
+                "*.drive.google.com",
+                "*.gdata.youtube.com",
+                "*.googleapis.com",
+                "*.photos.google.com",
+                "*.youtube-3rd-party.com",
+                "upload.google.com",
+                "*.upload.google.com",
+                "upload.youtube.com",
+                "*.upload.youtube.com",
+                "uploads.stage.gdata.youtube.com",
+                "bg-call-donation.goog",
+                "bg-call-donation-alpha.goog",
+                "bg-call-donation-canary.goog",
+                "bg-call-donation-dev.goog"
+              ],
+              "issuer": "GTS CA 1C3",
+              "validFrom": 1631503361,
+              "validTo": 1637378560,
+              "signedCertificateTimestampList": [],
+              "certificateTransparencyCompliance": "unknown"
+            },
+            "securityHeaders": [
+              {
+                "name": "Strict-Transport-Security",
+                "value": "max-age=31536000"
+              },
+              {
+                "name": "X-Content-Type-Options",
+                "value": "nosniff"
+              },
+              {
+                "name": "X-Frame-Options",
+                "value": "SAMEORIGIN"
+              },
+              {
+                "name": "X-Xss-Protection",
+                "value": "0"
+              }
+            ]
+          },
+          "hash": "eee6a08358c03e6fa553d20ab0188e229b29098f51cad4f41be3f88f6ade8aba",
+          "size": 569,
+          "asn": {
+            "ip": "216.58.212.170",
+            "asn": "15169",
+            "country": "US",
+            "registrar": "arin",
+            "date": "2000-03-30",
+            "description": "GOOGLE, US",
+            "route": "216.58.212.0/24",
+            "name": "GOOGLE"
+          },
+          "geoip": {
+            "country": "US",
+            "region": "CA",
+            "timezone": "America/Los_Angeles",
+            "city": "Mountain View",
+            "ll": [
+              37.4043,
+              -122.0748
+            ],
+            "country_name": "United States",
+            "metro": 807
+          },
+          "rdns": {
+            "ip": "216.58.212.170",
+            "ptr": "fra24s01-in-f10.1e100.net"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://doxbin.org/",
+          "host": "doxbin.org",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "76837.6",
+          "loaderId": "BA900274DEA556A89A689D1B63D405C7",
+          "documentURL": "https://doxbin.org/",
+          "request": {
+            "url": "https://doxbin.org/legacy/dropdown.css",
+            "method": "GET",
+            "headers": {
+              "Accept-Language": "de-DE,de;q=0.9",
+              "Referer": "https://doxbin.org/",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "VeryHigh",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 1918730.978465,
+          "wallTime": 1633175981.245325,
+          "initiator": {
+            "type": "parser",
+            "url": "https://doxbin.org/",
+            "lineNumber": 11,
+            "columnNumber": 51
+          },
+          "type": "Stylesheet",
+          "frameId": "7CDF4305765E32679E158D52D5B4FF0F",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 388,
+          "dataLength": 810,
+          "requestId": "76837.6",
+          "type": "Stylesheet",
+          "response": {
+            "url": "https://doxbin.org/legacy/dropdown.css",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "content-security-policy": "upgrade-insecure-requests;",
+              "content-encoding": "br",
+              "last-modified": "Tue, 08 Oct 2019 00:48:48 GMT",
+              "server": "ddos-guard",
+              "age": "2425",
+              "etag": "W/\"32a-5945b87fd1c00-gzip\"",
+              "vary": "Accept-Encoding",
+              "content-type": "text/css",
+              "date": "Sat, 02 Oct 2021 11:19:16 GMT",
+              "accept-ranges": "bytes",
+              "x-ddg-cachegen": "1632512901",
+              "content-length": "279"
+            },
+            "mimeType": "text/css",
+            "requestHeaders": {
+              ":path": "/legacy/dropdown.css",
+              "pragma": "no-cache",
+              "cookie": "__ddg1=BMICUsTTtEreKrQALsgo; XSRF-TOKEN=eyJpdiI6IlwvWWw3OE5oMkdDdHA2TnpnNHBrM3B3PT0iLCJ2YWx1ZSI6ImNtY2ZqRis4RUhjUHErRW1DOXFOejlJSzRVNE9jT3Z0cEFJeUhlK0NwakdZQ0lkXC9XK2cxRkZnYjVQeStVdVdmIiwibWFjIjoiOGJhNzM4Mzk5MzYyNTU3ZjQ0NTM1NzYyYzE5ZTZiNDUwZmRiNTQxNDEyZmIwMGE0MmFhMzQ3MjdmNzNkN2FlZCJ9; doxbin_session=eyJpdiI6InVZTVRaaFQrVElnQ0Z0Um16Uk9USHc9PSIsInZhbHVlIjoiSUhkdlwvdVJWYkVPUkppR05sSnJjaEhEZ2dFRWFBZmhHdE1yVUFRVldaanJ0UHJ4anlrUTRcL0FVNGYwa29vUG1iIiwibWFjIjoiZjRlZDQ2ZDU5ZTBiYWFlYzNiNmNjMWY0YWNhNDEwOTM1ZDJjNTQwMTI3OWJiM2MxMjQ4YTdlZmM3NWYwYWMzMyJ9",
+              "accept-encoding": "gzip, deflate, br",
+              "accept-language": "de-DE,de;q=0.9",
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36",
+              "sec-fetch-mode": "no-cors",
+              "accept": "text/css,*/*;q=0.1",
+              "cache-control": "no-cache",
+              "sec-fetch-dest": "style",
+              ":authority": "doxbin.org",
+              "referer": "https://doxbin.org/",
+              ":scheme": "https",
+              "sec-fetch-site": "same-origin",
+              ":method": "GET"
+            },
+            "remoteIPAddress": "185.178.208.35",
+            "remotePort": 443,
+            "encodedDataLength": 100,
+            "timing": {
+              "requestTime": 1918730.979218,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 1.445,
+              "sendEnd": 1.748,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersEnd": 26.558
+            },
+            "responseTime": 1633175981272.59,
+            "protocol": "h2",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "doxbin.org",
+              "sanList": [
+                "doxbin.org"
+              ],
+              "issuer": "R3",
+              "validFrom": 1632401095,
+              "validTo": 1640177094,
+              "signedCertificateTimestampList": [],
+              "certificateTransparencyCompliance": "unknown"
+            },
+            "securityHeaders": [
+              {
+                "name": "Content-Security-Policy",
+                "value": "upgrade-insecure-requests;"
+              }
+            ]
+          },
+          "hash": "4651208be3374756324764e17ad6ae2a3d13d282ef5b5c3cf3bf153e6b7ed385",
+          "size": 810,
+          "asn": {
+            "ip": "185.178.208.35",
+            "asn": "57724",
+            "country": "RU",
+            "registrar": "ripencc",
+            "date": "2015-12-01",
+            "description": "DDOS-GUARD, RU",
+            "route": "185.178.208.0/24",
+            "name": "DDOS-GUARD"
+          },
+          "geoip": {
+            "country": "RU",
+            "region": "",
+            "timezone": "Europe/Moscow",
+            "city": "",
+            "ll": [
+              55.7386,
+              37.6068
+            ],
+            "country_name": "Russian Federation",
+            "metro": 0
+          },
+          "rdns": {
+            "ip": "185.178.208.35",
+            "ptr": "ddos-guard.net"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://doxbin.org/",
+          "host": "doxbin.org",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "76837.7",
+          "loaderId": "BA900274DEA556A89A689D1B63D405C7",
+          "documentURL": "https://doxbin.org/",
+          "request": {
+            "url": "https://doxbin.org/files/doxbin.css",
+            "method": "GET",
+            "headers": {
+              "Accept-Language": "de-DE,de;q=0.9",
+              "Referer": "https://doxbin.org/",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "VeryHigh",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 1918730.978536,
+          "wallTime": 1633175981.245396,
+          "initiator": {
+            "type": "parser",
+            "url": "https://doxbin.org/",
+            "lineNumber": 12,
+            "columnNumber": 48
+          },
+          "type": "Stylesheet",
+          "frameId": "7CDF4305765E32679E158D52D5B4FF0F",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 205,
+          "dataLength": 56,
+          "requestId": "76837.7",
+          "type": "Stylesheet",
+          "response": {
+            "url": "https://doxbin.org/files/doxbin.css",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "content-security-policy": "upgrade-insecure-requests;",
+              "content-encoding": "gzip",
+              "last-modified": "Tue, 13 Apr 2021 12:05:53 GMT",
+              "server": "ddos-guard",
+              "age": "155738",
+              "etag": "W/\"38-5bfd973abca40\"",
+              "vary": "Accept-Encoding",
+              "content-type": "text/css",
+              "date": "Thu, 30 Sep 2021 16:44:03 GMT",
+              "accept-ranges": "bytes",
+              "x-ddg-cachegen": "1632512901",
+              "content-length": "68"
+            },
+            "mimeType": "text/css",
+            "requestHeaders": {
+              ":path": "/files/doxbin.css",
+              "pragma": "no-cache",
+              "cookie": "__ddg1=BMICUsTTtEreKrQALsgo; XSRF-TOKEN=eyJpdiI6IlwvWWw3OE5oMkdDdHA2TnpnNHBrM3B3PT0iLCJ2YWx1ZSI6ImNtY2ZqRis4RUhjUHErRW1DOXFOejlJSzRVNE9jT3Z0cEFJeUhlK0NwakdZQ0lkXC9XK2cxRkZnYjVQeStVdVdmIiwibWFjIjoiOGJhNzM4Mzk5MzYyNTU3ZjQ0NTM1NzYyYzE5ZTZiNDUwZmRiNTQxNDEyZmIwMGE0MmFhMzQ3MjdmNzNkN2FlZCJ9; doxbin_session=eyJpdiI6InVZTVRaaFQrVElnQ0Z0Um16Uk9USHc9PSIsInZhbHVlIjoiSUhkdlwvdVJWYkVPUkppR05sSnJjaEhEZ2dFRWFBZmhHdE1yVUFRVldaanJ0UHJ4anlrUTRcL0FVNGYwa29vUG1iIiwibWFjIjoiZjRlZDQ2ZDU5ZTBiYWFlYzNiNmNjMWY0YWNhNDEwOTM1ZDJjNTQwMTI3OWJiM2MxMjQ4YTdlZmM3NWYwYWMzMyJ9",
+              "accept-encoding": "gzip, deflate, br",
+              "accept-language": "de-DE,de;q=0.9",
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36",
+              "sec-fetch-mode": "no-cors",
+              "accept": "text/css,*/*;q=0.1",
+              "cache-control": "no-cache",
+              "sec-fetch-dest": "style",
+              ":authority": "doxbin.org",
+              "referer": "https://doxbin.org/",
+              ":scheme": "https",
+              "sec-fetch-site": "same-origin",
+              ":method": "GET"
+            },
+            "remoteIPAddress": "185.178.208.35",
+            "remotePort": 443,
+            "encodedDataLength": 128,
+            "timing": {
+              "requestTime": 1918730.97934,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 1.387,
+              "sendEnd": 1.627,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersEnd": 19.539
+            },
+            "responseTime": 1633175981265.67,
+            "protocol": "h2",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "doxbin.org",
+              "sanList": [
+                "doxbin.org"
+              ],
+              "issuer": "R3",
+              "validFrom": 1632401095,
+              "validTo": 1640177094,
+              "signedCertificateTimestampList": [],
+              "certificateTransparencyCompliance": "unknown"
+            },
+            "securityHeaders": [
+              {
+                "name": "Content-Security-Policy",
+                "value": "upgrade-insecure-requests;"
+              }
+            ]
+          },
+          "hash": "657c12cc8aab1f8f96a6f141affdadeed9078ca5bfc9865877b87cd7d1ea74c7",
+          "size": 56,
+          "asn": {
+            "ip": "185.178.208.35",
+            "asn": "57724",
+            "country": "RU",
+            "registrar": "ripencc",
+            "date": "2015-12-01",
+            "description": "DDOS-GUARD, RU",
+            "route": "185.178.208.0/24",
+            "name": "DDOS-GUARD"
+          },
+          "geoip": {
+            "country": "RU",
+            "region": "",
+            "timezone": "Europe/Moscow",
+            "city": "",
+            "ll": [
+              55.7386,
+              37.6068
+            ],
+            "country_name": "Russian Federation",
+            "metro": 0
+          },
+          "rdns": {
+            "ip": "185.178.208.35",
+            "ptr": "ddos-guard.net"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://doxbin.org/",
+          "host": "doxbin.org",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "76837.8",
+          "loaderId": "BA900274DEA556A89A689D1B63D405C7",
+          "documentURL": "https://doxbin.org/",
+          "request": {
+            "url": "https://doxbin.org/legacy/jquery.min.js",
+            "method": "GET",
+            "headers": {
+              "Accept-Language": "de-DE,de;q=0.9",
+              "Referer": "https://doxbin.org/",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "High",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 1918730.97862,
+          "wallTime": 1633175981.245482,
+          "initiator": {
+            "type": "parser",
+            "url": "https://doxbin.org/",
+            "lineNumber": 13,
+            "columnNumber": 54
+          },
+          "type": "Script",
+          "frameId": "7CDF4305765E32679E158D52D5B4FF0F",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 32259,
+          "dataLength": 93106,
+          "requestId": "76837.8",
+          "type": "Script",
+          "response": {
+            "url": "https://doxbin.org/legacy/jquery.min.js",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "content-security-policy": "upgrade-insecure-requests;",
+              "content-encoding": "br",
+              "last-modified": "Tue, 05 Feb 2019 12:17:58 GMT",
+              "server": "ddos-guard",
+              "age": "0",
+              "etag": "W/\"16bb2-5812499852980-gzip\"",
+              "vary": "Accept-Encoding",
+              "content-type": "application/javascript",
+              "date": "Sat, 02 Oct 2021 11:59:41 GMT",
+              "accept-ranges": "bytes",
+              "x-ddg-cachegen": "1632512901"
+            },
+            "mimeType": "application/javascript",
+            "requestHeaders": {
+              ":path": "/legacy/jquery.min.js",
+              "pragma": "no-cache",
+              "cookie": "__ddg1=BMICUsTTtEreKrQALsgo; XSRF-TOKEN=eyJpdiI6IlwvWWw3OE5oMkdDdHA2TnpnNHBrM3B3PT0iLCJ2YWx1ZSI6ImNtY2ZqRis4RUhjUHErRW1DOXFOejlJSzRVNE9jT3Z0cEFJeUhlK0NwakdZQ0lkXC9XK2cxRkZnYjVQeStVdVdmIiwibWFjIjoiOGJhNzM4Mzk5MzYyNTU3ZjQ0NTM1NzYyYzE5ZTZiNDUwZmRiNTQxNDEyZmIwMGE0MmFhMzQ3MjdmNzNkN2FlZCJ9; doxbin_session=eyJpdiI6InVZTVRaaFQrVElnQ0Z0Um16Uk9USHc9PSIsInZhbHVlIjoiSUhkdlwvdVJWYkVPUkppR05sSnJjaEhEZ2dFRWFBZmhHdE1yVUFRVldaanJ0UHJ4anlrUTRcL0FVNGYwa29vUG1iIiwibWFjIjoiZjRlZDQ2ZDU5ZTBiYWFlYzNiNmNjMWY0YWNhNDEwOTM1ZDJjNTQwMTI3OWJiM2MxMjQ4YTdlZmM3NWYwYWMzMyJ9",
+              "accept-encoding": "gzip, deflate, br",
+              "accept-language": "de-DE,de;q=0.9",
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36",
+              "sec-fetch-mode": "no-cors",
+              "accept": "*/*",
+              "cache-control": "no-cache",
+              "sec-fetch-dest": "script",
+              ":authority": "doxbin.org",
+              "referer": "https://doxbin.org/",
+              ":scheme": "https",
+              "sec-fetch-site": "same-origin",
+              ":method": "GET"
+            },
+            "remoteIPAddress": "185.178.208.35",
+            "remotePort": 443,
+            "encodedDataLength": 94,
+            "timing": {
+              "requestTime": 1918730.979542,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 1.222,
+              "sendEnd": 1.426,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersEnd": 88.397
+            },
+            "responseTime": 1633175981334.731,
+            "protocol": "h2",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "doxbin.org",
+              "sanList": [
+                "doxbin.org"
+              ],
+              "issuer": "R3",
+              "validFrom": 1632401095,
+              "validTo": 1640177094,
+              "signedCertificateTimestampList": [],
+              "certificateTransparencyCompliance": "unknown"
+            },
+            "securityHeaders": [
+              {
+                "name": "Content-Security-Policy",
+                "value": "upgrade-insecure-requests;"
+              }
+            ]
+          },
+          "hash": "c3a7b608ebfa8d1dfe658bc119e6236a6aaf878a779e7c560aa11dd30881a56a",
+          "size": 93106,
+          "asn": {
+            "ip": "185.178.208.35",
+            "asn": "57724",
+            "country": "RU",
+            "registrar": "ripencc",
+            "date": "2015-12-01",
+            "description": "DDOS-GUARD, RU",
+            "route": "185.178.208.0/24",
+            "name": "DDOS-GUARD"
+          },
+          "geoip": {
+            "country": "RU",
+            "region": "",
+            "timezone": "Europe/Moscow",
+            "city": "",
+            "ll": [
+              55.7386,
+              37.6068
+            ],
+            "country_name": "Russian Federation",
+            "metro": 0
+          },
+          "rdns": {
+            "ip": "185.178.208.35",
+            "ptr": "ddos-guard.net"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://doxbin.org/",
+          "host": "doxbin.org",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "76837.9",
+          "loaderId": "BA900274DEA556A89A689D1B63D405C7",
+          "documentURL": "https://doxbin.org/",
+          "request": {
+            "url": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
+            "method": "GET",
+            "headers": {
+              "Accept-Language": "de-DE,de;q=0.9",
+              "Referer": "https://doxbin.org/",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "High",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": false
+          },
+          "timestamp": 1918730.978687,
+          "wallTime": 1633175981.245549,
+          "initiator": {
+            "type": "parser",
+            "url": "https://doxbin.org/",
+            "lineNumber": 15,
+            "columnNumber": 82
+          },
+          "type": "Script",
+          "frameId": "7CDF4305765E32679E158D52D5B4FF0F",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 10939,
+          "dataLength": 37045,
+          "requestId": "76837.9",
+          "type": "Script",
+          "response": {
+            "url": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "date": "Sat, 02 Oct 2021 11:59:41 GMT",
+              "content-encoding": "br",
+              "x-content-type-options": "nosniff",
+              "cf-cache-status": "HIT",
+              "cdn-edgestorageid": "601, 617, 617",
+              "age": "14048485",
+              "cdn-cachedat": "2021-03-10 20:26:23",
+              "cdn-pullzone": "252412",
+              "cross-origin-resource-policy": "cross-origin",
+              "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-27=\":443\"; ma=86400",
+              "timing-allow-origin": "*",
+              "access-control-allow-origin": "*",
+              "last-modified": "Mon, 25 Jan 2021 22:04:00 GMT",
+              "server": "cloudflare",
+              "cdn-requestpullcode": "200",
+              "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+              "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+              "content-type": "application/javascript; charset=utf-8",
+              "cdn-cache": "HIT",
+              "vary": "Accept-Encoding",
+              "cache-control": "public, max-age=31919000",
+              "cdn-uid": "b1941f61-b576-4f40-80de-5677acb38f74",
+              "cdn-requestid": "9e5c01b93bbe3f098f57021adb3300f3",
+              "cf-ray": "697dc41afb278741-DUS",
+              "cdn-requestcountrycode": "DE",
+              "cdn-requestpullsuccess": "True"
+            },
+            "mimeType": "application/javascript",
+            "remoteIPAddress": "104.18.10.207",
+            "remotePort": 443,
+            "encodedDataLength": 657,
+            "timing": {
+              "requestTime": 1918730.979822,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0.593,
+              "dnsEnd": 1.007,
+              "connectStart": 1.007,
+              "connectEnd": 23.075,
+              "sslStart": 9.628,
+              "sslEnd": 23.07,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 23.176,
+              "sendEnd": 23.256,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersEnd": 40.809
+            },
+            "responseTime": 1633175981287.335,
+            "protocol": "h2",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "sni.cloudflaressl.com",
+              "sanList": [
+                "*.bootstrapcdn.com",
+                "sni.cloudflaressl.com",
+                "bootstrapcdn.com"
+              ],
+              "issuer": "Cloudflare Inc ECC CA-3",
+              "validFrom": 1614556800,
+              "validTo": 1646092799,
+              "signedCertificateTimestampList": [],
+              "certificateTransparencyCompliance": "unknown"
+            },
+            "securityHeaders": [
+              {
+                "name": "Strict-Transport-Security",
+                "value": "max-age=31536000; includeSubDomains; preload"
+              },
+              {
+                "name": "X-Content-Type-Options",
+                "value": "nosniff"
+              }
+            ]
+          },
+          "hash": "53964478a7c634e8dad34ecc303dd8048d00dce4993906de1bacf67f663486ef",
+          "size": 37045,
+          "asn": {
+            "ip": "104.18.10.207",
+            "asn": "13335",
+            "country": "US",
+            "registrar": "arin",
+            "date": "2010-07-14",
+            "description": "CLOUDFLARENET, US",
+            "route": "104.18.0.0/20",
+            "name": "CLOUDFLARENET"
+          },
+          "geoip": null
+        },
+        "initiatorInfo": {
+          "url": "https://doxbin.org/",
+          "host": "doxbin.org",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "76837.10",
+          "loaderId": "BA900274DEA556A89A689D1B63D405C7",
+          "documentURL": "https://doxbin.org/",
+          "request": {
+            "url": "https://doxbin.org/legacy/logout.js",
+            "method": "GET",
+            "headers": {
+              "Accept-Language": "de-DE,de;q=0.9",
+              "Referer": "https://doxbin.org/",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "High",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 1918730.978784,
+          "wallTime": 1633175981.245647,
+          "initiator": {
+            "type": "parser",
+            "url": "https://doxbin.org/",
+            "lineNumber": 16,
+            "columnNumber": 50
+          },
+          "type": "Script",
+          "frameId": "7CDF4305765E32679E158D52D5B4FF0F",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 309,
+          "dataLength": 404,
+          "requestId": "76837.10",
+          "type": "Script",
+          "response": {
+            "url": "https://doxbin.org/legacy/logout.js",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "content-security-policy": "upgrade-insecure-requests;",
+              "content-encoding": "br",
+              "last-modified": "Mon, 01 Jun 2020 16:19:02 GMT",
+              "server": "ddos-guard",
+              "age": "35566",
+              "etag": "W/\"194-5a70827270980-gzip\"",
+              "vary": "Accept-Encoding",
+              "content-type": "application/javascript",
+              "date": "Sat, 02 Oct 2021 02:06:55 GMT",
+              "accept-ranges": "bytes",
+              "x-ddg-cachegen": "1632512901",
+              "content-length": "179"
+            },
+            "mimeType": "application/javascript",
+            "requestHeaders": {
+              ":path": "/legacy/logout.js",
+              "pragma": "no-cache",
+              "cookie": "__ddg1=BMICUsTTtEreKrQALsgo; XSRF-TOKEN=eyJpdiI6IlwvWWw3OE5oMkdDdHA2TnpnNHBrM3B3PT0iLCJ2YWx1ZSI6ImNtY2ZqRis4RUhjUHErRW1DOXFOejlJSzRVNE9jT3Z0cEFJeUhlK0NwakdZQ0lkXC9XK2cxRkZnYjVQeStVdVdmIiwibWFjIjoiOGJhNzM4Mzk5MzYyNTU3ZjQ0NTM1NzYyYzE5ZTZiNDUwZmRiNTQxNDEyZmIwMGE0MmFhMzQ3MjdmNzNkN2FlZCJ9; doxbin_session=eyJpdiI6InVZTVRaaFQrVElnQ0Z0Um16Uk9USHc9PSIsInZhbHVlIjoiSUhkdlwvdVJWYkVPUkppR05sSnJjaEhEZ2dFRWFBZmhHdE1yVUFRVldaanJ0UHJ4anlrUTRcL0FVNGYwa29vUG1iIiwibWFjIjoiZjRlZDQ2ZDU5ZTBiYWFlYzNiNmNjMWY0YWNhNDEwOTM1ZDJjNTQwMTI3OWJiM2MxMjQ4YTdlZmM3NWYwYWMzMyJ9",
+              "accept-encoding": "gzip, deflate, br",
+              "accept-language": "de-DE,de;q=0.9",
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36",
+              "sec-fetch-mode": "no-cors",
+              "accept": "*/*",
+              "cache-control": "no-cache",
+              "sec-fetch-dest": "script",
+              ":authority": "doxbin.org",
+              "referer": "https://doxbin.org/",
+              ":scheme": "https",
+              "sec-fetch-site": "same-origin",
+              ":method": "GET"
+            },
+            "remoteIPAddress": "185.178.208.35",
+            "remotePort": 443,
+            "encodedDataLength": 121,
+            "timing": {
+              "requestTime": 1918730.980072,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 0.721,
+              "sendEnd": 0.897,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersEnd": 19.065
+            },
+            "responseTime": 1633175981265.955,
+            "protocol": "h2",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "doxbin.org",
+              "sanList": [
+                "doxbin.org"
+              ],
+              "issuer": "R3",
+              "validFrom": 1632401095,
+              "validTo": 1640177094,
+              "signedCertificateTimestampList": [],
+              "certificateTransparencyCompliance": "unknown"
+            },
+            "securityHeaders": [
+              {
+                "name": "Content-Security-Policy",
+                "value": "upgrade-insecure-requests;"
+              }
+            ]
+          },
+          "hash": "631fda6a67c4ec8338baf087694e7da0bdbe3f93faefab67c54945ea229ba49f",
+          "size": 404,
+          "asn": {
+            "ip": "185.178.208.35",
+            "asn": "57724",
+            "country": "RU",
+            "registrar": "ripencc",
+            "date": "2015-12-01",
+            "description": "DDOS-GUARD, RU",
+            "route": "185.178.208.0/24",
+            "name": "DDOS-GUARD"
+          },
+          "geoip": {
+            "country": "RU",
+            "region": "",
+            "timezone": "Europe/Moscow",
+            "city": "",
+            "ll": [
+              55.7386,
+              37.6068
+            ],
+            "country_name": "Russian Federation",
+            "metro": 0
+          },
+          "rdns": {
+            "ip": "185.178.208.35",
+            "ptr": "ddos-guard.net"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://doxbin.org/",
+          "host": "doxbin.org",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "76837.18",
+          "loaderId": "BA900274DEA556A89A689D1B63D405C7",
+          "documentURL": "https://doxbin.org/",
+          "request": {
+            "url": "https://fonts.googleapis.com/css?family=Roboto:400,700",
+            "method": "GET",
+            "headers": {
+              "Accept-Language": "de-DE,de;q=0.9",
+              "Referer": "https://doxbin.org/",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "VeryHigh",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": false
+          },
+          "timestamp": 1918731.008003,
+          "wallTime": 1633175981.274879,
+          "initiator": {
+            "type": "parser",
+            "url": "https://doxbin.org/legacy/index.css"
+          },
+          "type": "Stylesheet",
+          "frameId": "7CDF4305765E32679E158D52D5B4FF0F",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 692,
+          "dataLength": 4000,
+          "requestId": "76837.18",
+          "type": "Stylesheet",
+          "response": {
+            "url": "https://fonts.googleapis.com/css?family=Roboto:400,700",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "strict-transport-security": "max-age=31536000",
+              "content-encoding": "gzip",
+              "x-content-type-options": "nosniff",
+              "cross-origin-resource-policy": "cross-origin",
+              "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+              "x-xss-protection": "0",
+              "last-modified": "Sat, 02 Oct 2021 11:21:17 GMT",
+              "server": "ESF",
+              "date": "Sat, 02 Oct 2021 11:59:41 GMT",
+              "x-frame-options": "SAMEORIGIN",
+              "report-to": "{\"group\":\"AZM8iraMxxUfRnRum-EGst9UuHcPNVSf9Kp1_90wIgU\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/encsid_AZM8iraMxxUfRnRum-EGst9UuHcPNVSf9Kp1_90wIgU\"}]}",
+              "content-type": "text/css; charset=utf-8",
+              "access-control-allow-origin": "*",
+              "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+              "timing-allow-origin": "*",
+              "link": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin",
+              "cross-origin-opener-policy-report-only": "same-origin; report-to=\"AZM8iraMxxUfRnRum-EGst9UuHcPNVSf9Kp1_90wIgU\"",
+              "expires": "Sat, 02 Oct 2021 11:59:41 GMT"
+            },
+            "mimeType": "text/css",
+            "remoteIPAddress": "216.58.212.170",
+            "remotePort": 443,
+            "encodedDataLength": 74,
+            "timing": {
+              "requestTime": 1918731.008272,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 6.551,
+              "sendEnd": 6.609,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersEnd": 29.055
+            },
+            "responseTime": 1633175981304.095,
+            "protocol": "h2",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "upload.video.google.com",
+              "sanList": [
+                "upload.video.google.com",
+                "*.clients.google.com",
+                "*.docs.google.com",
+                "*.drive.google.com",
+                "*.gdata.youtube.com",
+                "*.googleapis.com",
+                "*.photos.google.com",
+                "*.youtube-3rd-party.com",
+                "upload.google.com",
+                "*.upload.google.com",
+                "upload.youtube.com",
+                "*.upload.youtube.com",
+                "uploads.stage.gdata.youtube.com",
+                "bg-call-donation.goog",
+                "bg-call-donation-alpha.goog",
+                "bg-call-donation-canary.goog",
+                "bg-call-donation-dev.goog"
+              ],
+              "issuer": "GTS CA 1C3",
+              "validFrom": 1631503361,
+              "validTo": 1637378560,
+              "signedCertificateTimestampList": [],
+              "certificateTransparencyCompliance": "unknown"
+            },
+            "securityHeaders": [
+              {
+                "name": "Strict-Transport-Security",
+                "value": "max-age=31536000"
+              },
+              {
+                "name": "X-Content-Type-Options",
+                "value": "nosniff"
+              },
+              {
+                "name": "X-Frame-Options",
+                "value": "SAMEORIGIN"
+              },
+              {
+                "name": "X-Xss-Protection",
+                "value": "0"
+              }
+            ]
+          },
+          "hash": "8aed12b8b95a1d49011f3e134dc8e71804a3576818d1d1334145aaa96d71aa5e",
+          "size": 4000,
+          "asn": {
+            "ip": "216.58.212.170",
+            "asn": "15169",
+            "country": "US",
+            "registrar": "arin",
+            "date": "2000-03-30",
+            "description": "GOOGLE, US",
+            "route": "216.58.212.0/24",
+            "name": "GOOGLE"
+          },
+          "geoip": {
+            "country": "US",
+            "region": "CA",
+            "timezone": "America/Los_Angeles",
+            "city": "Mountain View",
+            "ll": [
+              37.4043,
+              -122.0748
+            ],
+            "country_name": "United States",
+            "metro": 807
+          },
+          "rdns": {
+            "ip": "216.58.212.170",
+            "ptr": "fra24s01-in-f10.1e100.net"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://doxbin.org/legacy/index.css",
+          "host": "doxbin.org",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "76837.42",
+          "loaderId": "BA900274DEA556A89A689D1B63D405C7",
+          "documentURL": "https://doxbin.org/",
+          "request": {
+            "url": "https://cdn.doxbin.org/gold.gif",
+            "method": "GET",
+            "headers": {
+              "Accept-Language": "de-DE,de;q=0.9",
+              "Referer": "https://doxbin.org/",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "Low",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 1918731.18337,
+          "wallTime": 1633175981.450238,
+          "initiator": {
+            "type": "parser",
+            "url": "https://doxbin.org/",
+            "lineNumber": 1925,
+            "columnNumber": 4
+          },
+          "type": "Image",
+          "frameId": "7CDF4305765E32679E158D52D5B4FF0F",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 20620,
+          "dataLength": 20417,
+          "requestId": "76837.42",
+          "type": "Image",
+          "response": {
+            "url": "https://cdn.doxbin.org/gold.gif",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "content-security-policy": "upgrade-insecure-requests;",
+              "last-modified": "Thu, 03 Dec 2020 01:28:01 GMT",
+              "server": "ddos-guard",
+              "age": "2424",
+              "etag": "\"4fc1-5b58545454a40\"",
+              "content-type": "image/gif",
+              "date": "Sat, 02 Oct 2021 11:19:17 GMT",
+              "accept-ranges": "bytes",
+              "x-ddg-cachegen": "1632512901",
+              "content-length": "20417"
+            },
+            "mimeType": "image/gif",
+            "remoteIPAddress": "185.178.208.35",
+            "remotePort": 443,
+            "encodedDataLength": 176,
+            "timing": {
+              "requestTime": 1918731.183631,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0.139,
+              "dnsEnd": 48.672,
+              "connectStart": 48.672,
+              "connectEnd": 81.002,
+              "sslStart": 61.628,
+              "sslEnd": 80.996,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 81.244,
+              "sendEnd": 81.358,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersEnd": 109.441
+            },
+            "responseTime": 1633175981559.85,
+            "protocol": "h2",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "cdn.doxbin.org",
+              "sanList": [
+                "cdn.doxbin.org"
+              ],
+              "issuer": "R3",
+              "validFrom": 1632401458,
+              "validTo": 1640177457,
+              "signedCertificateTimestampList": [],
+              "certificateTransparencyCompliance": "unknown"
+            },
+            "securityHeaders": [
+              {
+                "name": "Content-Security-Policy",
+                "value": "upgrade-insecure-requests;"
+              }
+            ]
+          },
+          "hash": "6964eb77a8b07ad38eee7fdcd73a4fe06c6ed91375ea7087ee58ed5d8aec4494",
+          "size": 27224,
+          "asn": {
+            "ip": "185.178.208.35",
+            "asn": "57724",
+            "country": "RU",
+            "registrar": "ripencc",
+            "date": "2015-12-01",
+            "description": "DDOS-GUARD, RU",
+            "route": "185.178.208.0/24",
+            "name": "DDOS-GUARD"
+          },
+          "geoip": {
+            "country": "RU",
+            "region": "",
+            "timezone": "Europe/Moscow",
+            "city": "",
+            "ll": [
+              55.7386,
+              37.6068
+            ],
+            "country_name": "Russian Federation",
+            "metro": 0
+          },
+          "rdns": {
+            "ip": "185.178.208.35",
+            "ptr": "ddos-guard.net"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://doxbin.org/",
+          "host": "doxbin.org",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "76837.27",
+          "loaderId": "BA900274DEA556A89A689D1B63D405C7",
+          "documentURL": "https://doxbin.org/",
+          "request": {
+            "url": "https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2",
+            "method": "GET",
+            "headers": {
+              "Referer": "https://fonts.googleapis.com/",
+              "Origin": "https://doxbin.org",
+              "Accept-Language": "de-DE,de;q=0.9",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "VeryHigh",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": false
+          },
+          "timestamp": 1918731.185433,
+          "wallTime": 1633175981.452301,
+          "initiator": {
+            "type": "parser",
+            "url": "https://fonts.googleapis.com/css?family=Roboto:400,700"
+          },
+          "type": "Font",
+          "frameId": "7CDF4305765E32679E158D52D5B4FF0F",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 16344,
+          "dataLength": 15688,
+          "requestId": "76837.27",
+          "type": "Font",
+          "response": {
+            "url": "https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "date": "Mon, 27 Sep 2021 17:27:37 GMT",
+              "x-content-type-options": "nosniff",
+              "age": "412324",
+              "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+              "cross-origin-resource-policy": "cross-origin",
+              "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+              "content-length": "15688",
+              "x-xss-protection": "0",
+              "last-modified": "Wed, 22 Sep 2021 16:13:19 GMT",
+              "server": "sffe",
+              "report-to": "{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}",
+              "content-type": "font/woff2",
+              "access-control-allow-origin": "*",
+              "cache-control": "public, max-age=31536000",
+              "accept-ranges": "bytes",
+              "timing-allow-origin": "*",
+              "cross-origin-opener-policy-report-only": "same-origin; report-to=\"apps-themes\"",
+              "expires": "Tue, 27 Sep 2022 17:27:37 GMT"
+            },
+            "mimeType": "font/woff2",
+            "remoteIPAddress": "142.250.181.227",
+            "remotePort": 443,
+            "encodedDataLength": 647,
+            "timing": {
+              "requestTime": 1918731.185676,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0.053,
+              "dnsEnd": 0.361,
+              "connectStart": 0.361,
+              "connectEnd": 53.907,
+              "sslStart": 22.557,
+              "sslEnd": 53.901,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 54.306,
+              "sendEnd": 54.419,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersEnd": 76.605
+            },
+            "responseTime": 1633175981528.96,
+            "protocol": "h2",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "*.gstatic.com",
+              "sanList": [
+                "*.gstatic.com",
+                "gstatic.com",
+                "*.metric.gstatic.com",
+                "kn.dev",
+                "*.kn.dev"
+              ],
+              "issuer": "GTS CA 1C3",
+              "validFrom": 1631503295,
+              "validTo": 1637378494,
+              "signedCertificateTimestampList": [],
+              "certificateTransparencyCompliance": "unknown"
+            },
+            "securityHeaders": [
+              {
+                "name": "X-Content-Type-Options",
+                "value": "nosniff"
+              },
+              {
+                "name": "X-Xss-Protection",
+                "value": "0"
+              }
+            ]
+          },
+          "hash": "cc46322d5c4d41da447f26f7fa714827f2ec9a112968c12ef5736c7494985eca",
+          "size": 20920,
+          "asn": {
+            "ip": "142.250.181.227",
+            "asn": "15169",
+            "country": "US",
+            "registrar": "arin",
+            "date": "2000-03-30",
+            "description": "GOOGLE, US",
+            "route": "142.250.0.0/15",
+            "name": "GOOGLE"
+          },
+          "geoip": {
+            "country": "US",
+            "region": "",
+            "timezone": "America/Chicago",
+            "city": "",
+            "ll": [
+              37.751,
+              -97.822
+            ],
+            "country_name": "United States",
+            "metro": 0
+          },
+          "rdns": {
+            "ip": "142.250.181.227",
+            "ptr": "fra16s56-in-f3.1e100.net"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://fonts.googleapis.com/css?family=Roboto:400,700",
+          "host": "fonts.googleapis.com",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "76837.34",
+          "loaderId": "BA900274DEA556A89A689D1B63D405C7",
+          "documentURL": "https://doxbin.org/",
+          "request": {
+            "url": "https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlfBBc4.woff2",
+            "method": "GET",
+            "headers": {
+              "Referer": "https://fonts.googleapis.com/",
+              "Origin": "https://doxbin.org",
+              "Accept-Language": "de-DE,de;q=0.9",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "VeryHigh",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": false
+          },
+          "timestamp": 1918731.185606,
+          "wallTime": 1633175981.452475,
+          "initiator": {
+            "type": "parser",
+            "url": "https://fonts.googleapis.com/css?family=Roboto:400,700"
+          },
+          "type": "Font",
+          "frameId": "7CDF4305765E32679E158D52D5B4FF0F",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 15946,
+          "dataLength": 15828,
+          "requestId": "76837.34",
+          "type": "Font",
+          "response": {
+            "url": "https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlfBBc4.woff2",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "date": "Wed, 29 Sep 2021 16:31:40 GMT",
+              "x-content-type-options": "nosniff",
+              "age": "242881",
+              "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+              "cross-origin-resource-policy": "cross-origin",
+              "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+              "content-length": "15828",
+              "x-xss-protection": "0",
+              "last-modified": "Wed, 22 Sep 2021 16:13:28 GMT",
+              "server": "sffe",
+              "report-to": "{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}",
+              "content-type": "font/woff2",
+              "access-control-allow-origin": "*",
+              "cache-control": "public, max-age=31536000",
+              "accept-ranges": "bytes",
+              "timing-allow-origin": "*",
+              "cross-origin-opener-policy-report-only": "same-origin; report-to=\"apps-themes\"",
+              "expires": "Thu, 29 Sep 2022 16:31:40 GMT"
+            },
+            "mimeType": "font/woff2",
+            "remoteIPAddress": "142.250.181.227",
+            "remotePort": 443,
+            "encodedDataLength": 109,
+            "timing": {
+              "requestTime": 1918731.185877,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 54.147,
+              "sendEnd": 54.22,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersEnd": 94.142
+            },
+            "responseTime": 1633175981546.739,
+            "protocol": "h2",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "*.gstatic.com",
+              "sanList": [
+                "*.gstatic.com",
+                "gstatic.com",
+                "*.metric.gstatic.com",
+                "kn.dev",
+                "*.kn.dev"
+              ],
+              "issuer": "GTS CA 1C3",
+              "validFrom": 1631503295,
+              "validTo": 1637378494,
+              "signedCertificateTimestampList": [],
+              "certificateTransparencyCompliance": "unknown"
+            },
+            "securityHeaders": [
+              {
+                "name": "X-Content-Type-Options",
+                "value": "nosniff"
+              },
+              {
+                "name": "X-Xss-Protection",
+                "value": "0"
+              }
+            ]
+          },
+          "hash": "0eaeadb58e6995ba85eccb6198aaef77eeb1d4b66699e4e1f3fc10eb6adfcdb9",
+          "size": 21104,
+          "asn": {
+            "ip": "142.250.181.227",
+            "asn": "15169",
+            "country": "US",
+            "registrar": "arin",
+            "date": "2000-03-30",
+            "description": "GOOGLE, US",
+            "route": "142.250.0.0/15",
+            "name": "GOOGLE"
+          },
+          "geoip": {
+            "country": "US",
+            "region": "",
+            "timezone": "America/Chicago",
+            "city": "",
+            "ll": [
+              37.751,
+              -97.822
+            ],
+            "country_name": "United States",
+            "metro": 0
+          },
+          "rdns": {
+            "ip": "142.250.181.227",
+            "ptr": "fra16s56-in-f3.1e100.net"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://fonts.googleapis.com/css?family=Roboto:400,700",
+          "host": "fonts.googleapis.com",
+          "type": "parser"
+        }
+      }
+    ],
+    "cookies": [
+      {
+        "name": "__ddg1",
+        "value": "BMICUsTTtEreKrQALsgo",
+        "domain": ".doxbin.org",
+        "path": "/",
+        "expires": 1664711981.225983,
+        "size": 26,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443
+      },
+      {
+        "name": "XSRF-TOKEN",
+        "value": "eyJpdiI6IlwvWWw3OE5oMkdDdHA2TnpnNHBrM3B3PT0iLCJ2YWx1ZSI6ImNtY2ZqRis4RUhjUHErRW1DOXFOejlJSzRVNE9jT3Z0cEFJeUhlK0NwakdZQ0lkXC9XK2cxRkZnYjVQeStVdVdmIiwibWFjIjoiOGJhNzM4Mzk5MzYyNTU3ZjQ0NTM1NzYyYzE5ZTZiNDUwZmRiNTQxNDEyZmIwMGE0MmFhMzQ3MjdmNzNkN2FlZCJ9",
+        "domain": ".doxbin.org",
+        "path": "/",
+        "expires": 1633183181.226021,
+        "size": 254,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443
+      },
+      {
+        "name": "doxbin_session",
+        "value": "eyJpdiI6InVZTVRaaFQrVElnQ0Z0Um16Uk9USHc9PSIsInZhbHVlIjoiSUhkdlwvdVJWYkVPUkppR05sSnJjaEhEZ2dFRWFBZmhHdE1yVUFRVldaanJ0UHJ4anlrUTRcL0FVNGYwa29vUG1iIiwibWFjIjoiZjRlZDQ2ZDU5ZTBiYWFlYzNiNmNjMWY0YWNhNDEwOTM1ZDJjNTQwMTI3OWJiM2MxMjQ4YTdlZmM3NWYwYWMzMyJ9",
+        "domain": ".doxbin.org",
+        "path": "/",
+        "expires": 1633183181.226036,
+        "size": 258,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443
+      }
+    ],
+    "console": [],
+    "links": [
+      {
+        "href": "https://twitter.com/Doxbin_org",
+        "text": "Official Doxbin Twitter"
+      }
+    ],
+    "timing": {
+      "beginNavigation": "2021-10-02T11:59:39.399Z",
+      "frameStartedLoading": "2021-10-02T11:59:41.228Z",
+      "frameNavigated": "2021-10-02T11:59:41.244Z",
+      "domContentEventFired": "2021-10-02T11:59:41.503Z",
+      "frameStoppedLoading": "2021-10-02T11:59:41.572Z"
+    },
+    "globals": [
+      {
+        "prop": "onbeforexrselect",
+        "type": "object"
+      },
+      {
+        "prop": "originAgentCluster",
+        "type": "boolean"
+      },
+      {
+        "prop": "$",
+        "type": "function"
+      },
+      {
+        "prop": "jQuery",
+        "type": "function"
+      },
+      {
+        "prop": "jQuery110206247051300158455",
+        "type": "object"
+      },
+      {
+        "prop": "order",
+        "type": "string"
+      },
+      {
+        "prop": "type",
+        "type": "string"
+      },
+      {
+        "prop": "page",
+        "type": "number"
+      }
+    ]
+  },
+  "stats": {
+    "resourceStats": [
+      {
+        "count": 7,
+        "size": 157929,
+        "encodedSize": 28082,
+        "latency": 0,
+        "countries": [
+          "RU",
+          "US"
+        ],
+        "ips": [
+          "185.178.208.35",
+          "104.18.11.207",
+          "216.58.212.170"
+        ],
+        "type": "Stylesheet",
+        "compression": "5.6",
+        "percentage": 50
+      },
+      {
+        "count": 3,
+        "size": 130555,
+        "encodedSize": 43507,
+        "latency": 0,
+        "countries": [
+          "RU"
+        ],
+        "ips": [
+          "185.178.208.35",
+          "104.18.10.207"
+        ],
+        "type": "Script",
+        "compression": "3.0",
+        "percentage": 21
+      },
+      {
+        "count": 2,
+        "size": 31516,
+        "encodedSize": 32290,
+        "latency": 0,
+        "countries": [
+          "US"
+        ],
+        "ips": [
+          "142.250.181.227"
+        ],
+        "type": "Font",
+        "compression": "1.0",
+        "percentage": 14
+      },
+      {
+        "count": 1,
+        "size": 20417,
+        "encodedSize": 20620,
+        "latency": 0,
+        "countries": [
+          "RU"
+        ],
+        "ips": [
+          "185.178.208.35"
+        ],
+        "type": "Image",
+        "compression": "1.0",
+        "percentage": 7
+      },
+      {
+        "count": 1,
+        "size": 109503,
+        "encodedSize": 13560,
+        "latency": 0,
+        "countries": [
+          "RU"
+        ],
+        "ips": [
+          "185.178.208.35"
+        ],
+        "type": "Document",
+        "compression": "8.1",
+        "percentage": 7
+      }
+    ],
+    "protocolStats": [
+      {
+        "count": 14,
+        "size": 449920,
+        "encodedSize": 138059,
+        "ips": [
+          "185.178.208.35",
+          "104.18.11.207",
+          "216.58.212.170",
+          "104.18.10.207",
+          "142.250.181.227"
+        ],
+        "countries": [
+          "RU",
+          "US"
+        ],
+        "securityState": {},
+        "protocol": "h2"
+      }
+    ],
+    "tlsStats": [
+      {
+        "count": 14,
+        "size": 449920,
+        "encodedSize": 138059,
+        "ips": [
+          "185.178.208.35",
+          "104.18.11.207",
+          "216.58.212.170",
+          "104.18.10.207",
+          "142.250.181.227"
+        ],
+        "countries": [
+          "RU",
+          "US"
+        ],
+        "protocols": {
+          "TLS 1.3 /  / AES_128_GCM": 14
+        },
+        "securityState": "secure"
+      }
+    ],
+    "serverStats": [
+      {
+        "count": 8,
+        "size": 355132,
+        "encodedSize": 88128,
+        "ips": [
+          "185.178.208.35"
+        ],
+        "countries": [
+          "RU"
+        ],
+        "server": "ddos-guard"
+      },
+      {
+        "count": 2,
+        "size": 31516,
+        "encodedSize": 32290,
+        "ips": [
+          "142.250.181.227"
+        ],
+        "countries": [
+          "US"
+        ],
+        "server": "sffe"
+      },
+      {
+        "count": 2,
+        "size": 4569,
+        "encodedSize": 1792,
+        "ips": [
+          "216.58.212.170"
+        ],
+        "countries": [
+          "US"
+        ],
+        "server": "ESF"
+      },
+      {
+        "count": 2,
+        "size": 58703,
+        "encodedSize": 15849,
+        "ips": [
+          "104.18.11.207",
+          "104.18.10.207"
+        ],
+        "countries": [],
+        "server": "cloudflare"
+      }
+    ],
+    "domainStats": [
+      {
+        "count": 7,
+        "ips": [
+          "185.178.208.35"
+        ],
+        "domain": "doxbin.org",
+        "size": 334715,
+        "encodedSize": 67508,
+        "countries": [
+          "RU"
+        ],
+        "index": 0,
+        "initiators": [
+          "doxbin.org"
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 2,
+        "ips": [
+          "142.250.181.227"
+        ],
+        "domain": "fonts.gstatic.com",
+        "size": 31516,
+        "encodedSize": 32290,
+        "countries": [
+          "US"
+        ],
+        "index": 12,
+        "initiators": [
+          "fonts.googleapis.com"
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 2,
+        "ips": [
+          "216.58.212.170"
+        ],
+        "domain": "fonts.googleapis.com",
+        "size": 4569,
+        "encodedSize": 1792,
+        "countries": [
+          "US"
+        ],
+        "index": 4,
+        "initiators": [
+          "doxbin.org"
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 1,
+        "ips": [
+          "185.178.208.35"
+        ],
+        "domain": "cdn.doxbin.org",
+        "size": 20417,
+        "encodedSize": 20620,
+        "countries": [
+          "RU"
+        ],
+        "index": 11,
+        "initiators": [
+          "doxbin.org"
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 1,
+        "ips": [
+          "104.18.10.207"
+        ],
+        "domain": "maxcdn.bootstrapcdn.com",
+        "size": 37045,
+        "encodedSize": 10939,
+        "countries": [],
+        "index": 8,
+        "initiators": [
+          "doxbin.org"
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 1,
+        "ips": [
+          "104.18.11.207"
+        ],
+        "domain": "netdna.bootstrapcdn.com",
+        "size": 21658,
+        "encodedSize": 4910,
+        "countries": [],
+        "index": 3,
+        "initiators": [
+          "doxbin.org"
+        ],
+        "redirects": 0
+      }
+    ],
+    "regDomainStats": [
+      {
+        "count": 8,
+        "ips": [
+          "185.178.208.35"
+        ],
+        "regDomain": "doxbin.org",
+        "size": 355132,
+        "encodedSize": 88128,
+        "countries": [],
+        "index": 0,
+        "subDomains": [
+          {
+            "domain": "",
+            "country": "RU"
+          },
+          {
+            "domain": "cdn",
+            "country": "RU"
+          }
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 2,
+        "ips": [
+          "142.250.181.227"
+        ],
+        "regDomain": "gstatic.com",
+        "size": 31516,
+        "encodedSize": 32290,
+        "countries": [],
+        "index": 12,
+        "subDomains": [
+          {
+            "domain": "fonts",
+            "country": "US"
+          }
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 2,
+        "ips": [
+          "216.58.212.170"
+        ],
+        "regDomain": "fonts.googleapis.com",
+        "size": 4569,
+        "encodedSize": 1792,
+        "countries": [],
+        "index": 4,
+        "subDomains": [
+          {
+            "domain": "",
+            "country": "US"
+          }
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 2,
+        "ips": [
+          "104.18.11.207",
+          "104.18.10.207"
+        ],
+        "regDomain": "bootstrapcdn.com",
+        "size": 58703,
+        "encodedSize": 15849,
+        "countries": [],
+        "index": 3,
+        "subDomains": [
+          {
+            "domain": "netdna",
+            "country": ""
+          },
+          {
+            "domain": "maxcdn",
+            "country": ""
+          }
+        ],
+        "redirects": 0
+      }
+    ],
+    "secureRequests": 14,
+    "securePercentage": 100,
+    "IPv6Percentage": 0,
+    "uniqCountries": 3,
+    "totalLinks": 1,
+    "malicious": 0,
+    "adBlocked": 0,
+    "ipStats": [
+      {
+        "requests": 8,
+        "domains": [
+          "doxbin.org",
+          "cdn.doxbin.org"
+        ],
+        "ip": "185.178.208.35",
+        "asn": {
+          "ip": "185.178.208.35",
+          "asn": "57724",
+          "country": "RU",
+          "registrar": "ripencc",
+          "date": "2015-12-01",
+          "description": "DDOS-GUARD, RU",
+          "route": "185.178.208.0/24",
+          "name": "DDOS-GUARD"
+        },
+        "dns": {},
+        "geoip": {
+          "country": "RU",
+          "region": "",
+          "timezone": "Europe/Moscow",
+          "city": "",
+          "ll": [
+            55.7386,
+            37.6068
+          ],
+          "country_name": "Russian Federation",
+          "metro": 0
+        },
+        "size": 355132,
+        "encodedSize": 88128,
+        "countries": [
+          "RU"
+        ],
+        "index": 0,
+        "ipv6": false,
+        "redirects": 0,
+        "count": null,
+        "rdns": {
+          "ip": "185.178.208.35",
+          "ptr": "ddos-guard.net"
+        }
+      },
+      {
+        "requests": 1,
+        "domains": [
+          "netdna.bootstrapcdn.com"
+        ],
+        "ip": "104.18.11.207",
+        "asn": {
+          "ip": "104.18.11.207",
+          "asn": "13335",
+          "country": "US",
+          "registrar": "arin",
+          "date": "2010-07-14",
+          "description": "CLOUDFLARENET, US",
+          "route": "104.18.0.0/20",
+          "name": "CLOUDFLARENET"
+        },
+        "dns": {},
+        "geoip": null,
+        "size": 21658,
+        "encodedSize": 4910,
+        "countries": [],
+        "index": 3,
+        "ipv6": false,
+        "redirects": 0,
+        "count": null
+      },
+      {
+        "requests": 2,
+        "domains": [
+          "fonts.googleapis.com"
+        ],
+        "ip": "216.58.212.170",
+        "asn": {
+          "ip": "216.58.212.170",
+          "asn": "15169",
+          "country": "US",
+          "registrar": "arin",
+          "date": "2000-03-30",
+          "description": "GOOGLE, US",
+          "route": "216.58.212.0/24",
+          "name": "GOOGLE"
+        },
+        "dns": {},
+        "geoip": {
+          "country": "US",
+          "region": "CA",
+          "timezone": "America/Los_Angeles",
+          "city": "Mountain View",
+          "ll": [
+            37.4043,
+            -122.0748
+          ],
+          "country_name": "United States",
+          "metro": 807
+        },
+        "size": 4569,
+        "encodedSize": 1792,
+        "countries": [
+          "US"
+        ],
+        "index": 4,
+        "ipv6": false,
+        "redirects": 0,
+        "count": null,
+        "rdns": {
+          "ip": "216.58.212.170",
+          "ptr": "fra24s01-in-f10.1e100.net"
+        }
+      },
+      {
+        "requests": 1,
+        "domains": [
+          "maxcdn.bootstrapcdn.com"
+        ],
+        "ip": "104.18.10.207",
+        "asn": {
+          "ip": "104.18.10.207",
+          "asn": "13335",
+          "country": "US",
+          "registrar": "arin",
+          "date": "2010-07-14",
+          "description": "CLOUDFLARENET, US",
+          "route": "104.18.0.0/20",
+          "name": "CLOUDFLARENET"
+        },
+        "dns": {},
+        "geoip": null,
+        "size": 37045,
+        "encodedSize": 10939,
+        "countries": [],
+        "index": 8,
+        "ipv6": false,
+        "redirects": 0,
+        "count": null
+      },
+      {
+        "requests": 2,
+        "domains": [
+          "fonts.gstatic.com"
+        ],
+        "ip": "142.250.181.227",
+        "asn": {
+          "ip": "142.250.181.227",
+          "asn": "15169",
+          "country": "US",
+          "registrar": "arin",
+          "date": "2000-03-30",
+          "description": "GOOGLE, US",
+          "route": "142.250.0.0/15",
+          "name": "GOOGLE"
+        },
+        "dns": {},
+        "geoip": {
+          "country": "US",
+          "region": "",
+          "timezone": "America/Chicago",
+          "city": "",
+          "ll": [
+            37.751,
+            -97.822
+          ],
+          "country_name": "United States",
+          "metro": 0
+        },
+        "size": 31516,
+        "encodedSize": 32290,
+        "countries": [
+          "US"
+        ],
+        "index": 12,
+        "ipv6": false,
+        "redirects": 0,
+        "count": null,
+        "rdns": {
+          "ip": "142.250.181.227",
+          "ptr": "fra16s56-in-f3.1e100.net"
+        }
+      }
+    ]
+  },
+  "meta": {
+    "processors": {
+      "geoip": {
+        "data": [
+          {
+            "ip": "185.178.208.35",
+            "geoip": {
+              "country": "RU",
+              "region": "",
+              "timezone": "Europe/Moscow",
+              "city": "",
+              "ll": [
+                55.7386,
+                37.6068
+              ],
+              "country_name": "Russian Federation",
+              "metro": 0
+            }
+          },
+          {
+            "ip": "104.18.11.207",
+            "geoip": null
+          },
+          {
+            "ip": "216.58.212.170",
+            "geoip": {
+              "country": "US",
+              "region": "CA",
+              "timezone": "America/Los_Angeles",
+              "city": "Mountain View",
+              "ll": [
+                37.4043,
+                -122.0748
+              ],
+              "country_name": "United States",
+              "metro": 807
+            }
+          },
+          {
+            "ip": "104.18.10.207",
+            "geoip": null
+          },
+          {
+            "ip": "142.250.181.227",
+            "geoip": {
+              "country": "US",
+              "region": "",
+              "timezone": "America/Chicago",
+              "city": "",
+              "ll": [
+                37.751,
+                -97.822
+              ],
+              "country_name": "United States",
+              "metro": 0
+            }
+          }
+        ]
+      },
+      "rdns": {
+        "data": [
+          {
+            "ip": "185.178.208.35",
+            "ptr": "ddos-guard.net"
+          },
+          {
+            "ip": "216.58.212.170",
+            "ptr": "fra24s01-in-f10.1e100.net"
+          },
+          {
+            "ip": "142.250.181.227",
+            "ptr": "fra16s56-in-f3.1e100.net"
+          }
+        ]
+      },
+      "asn": {
+        "data": [
+          {
+            "ip": "185.178.208.35",
+            "asn": "57724",
+            "country": "RU",
+            "registrar": "ripencc",
+            "date": "2015-12-01",
+            "description": "DDOS-GUARD, RU",
+            "route": "185.178.208.0/24",
+            "name": "DDOS-GUARD"
+          },
+          {
+            "ip": "104.18.11.207",
+            "asn": "13335",
+            "country": "US",
+            "registrar": "arin",
+            "date": "2010-07-14",
+            "description": "CLOUDFLARENET, US",
+            "route": "104.18.0.0/20",
+            "name": "CLOUDFLARENET"
+          },
+          {
+            "ip": "216.58.212.170",
+            "asn": "15169",
+            "country": "US",
+            "registrar": "arin",
+            "date": "2000-03-30",
+            "description": "GOOGLE, US",
+            "route": "216.58.212.0/24",
+            "name": "GOOGLE"
+          },
+          {
+            "ip": "104.18.10.207",
+            "asn": "13335",
+            "country": "US",
+            "registrar": "arin",
+            "date": "2010-07-14",
+            "description": "CLOUDFLARENET, US",
+            "route": "104.18.0.0/20",
+            "name": "CLOUDFLARENET"
+          },
+          {
+            "ip": "142.250.181.227",
+            "asn": "15169",
+            "country": "US",
+            "registrar": "arin",
+            "date": "2000-03-30",
+            "description": "GOOGLE, US",
+            "route": "142.250.0.0/15",
+            "name": "GOOGLE"
+          }
+        ]
+      },
+      "wappa": {
+        "data": [
+          {
+            "confidence": [
+              {
+                "confidence": 100,
+                "pattern": "<link[^>]* href=[^>]*?bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)[^>]*?(?:\\.min)?\\.css"
+              },
+              {
+                "confidence": 100,
+                "pattern": "bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)[^>]*?(?:\\.min)?\\.js"
+              }
+            ],
+            "confidenceTotal": 100,
+            "app": "Bootstrap",
+            "icon": "Bootstrap.png",
+            "website": "https://getbootstrap.com",
+            "categories": [
+              {
+                "name": "Web Frameworks",
+                "priority": 7
+              }
+            ]
+          },
+          {
+            "confidence": [
+              {
+                "confidence": 100,
+                "pattern": "<link[^>]* href=[^>]+(?:([\\d.]+)/)?(?:css/)?font-awesome(?:\\.min)?\\.css"
+              },
+              {
+                "confidence": 100,
+                "pattern": "<link[^>]* href=[^>]*?(?:F|f)o(?:n|r)t-?(?:A|a)wesome(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)"
+              },
+              {
+                "confidence": 100,
+                "pattern": "(?:F|f)o(?:n|r)t-?(?:A|a)wesome(?:.*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)"
+              }
+            ],
+            "confidenceTotal": 100,
+            "app": "Font Awesome",
+            "icon": "Font Awesome.png",
+            "website": "http://fontawesome.io",
+            "categories": [
+              {
+                "name": "Font Scripts",
+                "priority": 9
+              }
+            ]
+          },
+          {
+            "confidence": [
+              {
+                "confidence": 100,
+                "pattern": "<link[^>]* href=[^>]+fonts\\.(?:googleapis|google)\\.com"
+              }
+            ],
+            "confidenceTotal": 100,
+            "app": "Google Font API",
+            "icon": "Google Font API.png",
+            "website": "http://google.com/fonts",
+            "categories": [
+              {
+                "name": "Font Scripts",
+                "priority": 9
+              }
+            ]
+          },
+          {
+            "confidence": [
+              {
+                "confidence": 100,
+                "pattern": "jquery.*\\.js(?:\\?ver(?:sion)?=([\\d.]+))?"
+              }
+            ],
+            "confidenceTotal": 100,
+            "app": "jQuery",
+            "icon": "jQuery.svg",
+            "website": "https://jquery.com",
+            "categories": [
+              {
+                "name": "JavaScript Libraries",
+                "priority": 9
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "task": {
+    "uuid": "cfe32352-b0d4-4464-9fe1-37b0d2539a21",
+    "time": "2021-10-02T11:59:39.177Z",
+    "url": "https://doxbin.org/",
+    "visibility": "public",
+    "method": "manual",
+    "source": "web",
+    "tags": [],
+    "reportURL": "https://urlscan.io/result/cfe32352-b0d4-4464-9fe1-37b0d2539a21/",
+    "screenshotURL": "https://urlscan.io/screenshots/cfe32352-b0d4-4464-9fe1-37b0d2539a21.png",
+    "domURL": "https://urlscan.io/dom/cfe32352-b0d4-4464-9fe1-37b0d2539a21/"
+  },
+  "page": {
+    "url": "https://doxbin.org/",
+    "domain": "doxbin.org",
+    "country": "RU",
+    "city": "",
+    "server": "ddos-guard",
+    "ip": "185.178.208.35",
+    "ptr": "ddos-guard.net",
+    "asn": "AS57724",
+    "asnname": "DDOS-GUARD, RU"
+  },
+  "lists": {
+    "ips": [
+      "142.250.181.227",
+      "104.18.10.207",
+      "216.58.212.170",
+      "104.18.11.207",
+      "185.178.208.35"
+    ],
+    "countries": [
+      "US",
+      null,
+      "RU"
+    ],
+    "asns": [
+      "15169",
+      "13335",
+      "15169",
+      "13335",
+      "57724"
+    ],
+    "domains": [
+      "doxbin.org",
+      "fonts.gstatic.com",
+      "fonts.googleapis.com",
+      "cdn.doxbin.org",
+      "maxcdn.bootstrapcdn.com",
+      "netdna.bootstrapcdn.com"
+    ],
+    "servers": [
+      "ddos-guard",
+      "sffe",
+      "ESF",
+      "cloudflare"
+    ],
+    "urls": [
+      "https://doxbin.org/",
+      "https://doxbin.org/legacy/index.css",
+      "https://doxbin.org/legacy/css/main.css?r=44",
+      "https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css",
+      "https://fonts.googleapis.com/icon?family=Material+Icons",
+      "https://doxbin.org/legacy/dropdown.css",
+      "https://doxbin.org/files/doxbin.css",
+      "https://doxbin.org/legacy/jquery.min.js",
+      "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
+      "https://doxbin.org/legacy/logout.js",
+      "https://fonts.googleapis.com/css?family=Roboto:400,700",
+      "https://cdn.doxbin.org/gold.gif",
+      "https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2",
+      "https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlfBBc4.woff2"
+    ],
+    "linkDomains": [
+      "twitter.com"
+    ],
+    "certificates": [
+      {
+        "subjectName": "doxbin.org",
+        "issuer": "R3",
+        "validFrom": 1632401095,
+        "validTo": 1640177094
+      },
+      {
+        "subjectName": "sni.cloudflaressl.com",
+        "issuer": "Cloudflare Inc ECC CA-3",
+        "validFrom": 1614556800,
+        "validTo": 1646092799
+      },
+      {
+        "subjectName": "upload.video.google.com",
+        "issuer": "GTS CA 1C3",
+        "validFrom": 1631503361,
+        "validTo": 1637378560
+      },
+      {
+        "subjectName": "cdn.doxbin.org",
+        "issuer": "R3",
+        "validFrom": 1632401458,
+        "validTo": 1640177457
+      },
+      {
+        "subjectName": "*.gstatic.com",
+        "issuer": "GTS CA 1C3",
+        "validFrom": 1631503295,
+        "validTo": 1637378494
+      }
+    ],
+    "hashes": [
+      "713ad9a44ab248d31e1ca3e0c2cd9ac026f87100cfe4a88ac53b967068396f6e",
+      "745bebe3efbb21f509c62cd6633595740db46cd9956e5e7c963ff41f92ada24d",
+      "d81b21f9333cb91ee20d05fbbddbdf3ce60f037d87658a0c33c4a661b6651a56",
+      "3083e8d3b21ddc3f0e6d65ec3580aa6edfaadca5d9737d9caa27e6a233e1ccf3",
+      "eee6a08358c03e6fa553d20ab0188e229b29098f51cad4f41be3f88f6ade8aba",
+      "4651208be3374756324764e17ad6ae2a3d13d282ef5b5c3cf3bf153e6b7ed385",
+      "657c12cc8aab1f8f96a6f141affdadeed9078ca5bfc9865877b87cd7d1ea74c7",
+      "c3a7b608ebfa8d1dfe658bc119e6236a6aaf878a779e7c560aa11dd30881a56a",
+      "53964478a7c634e8dad34ecc303dd8048d00dce4993906de1bacf67f663486ef",
+      "631fda6a67c4ec8338baf087694e7da0bdbe3f93faefab67c54945ea229ba49f",
+      "8aed12b8b95a1d49011f3e134dc8e71804a3576818d1d1334145aaa96d71aa5e",
+      "6964eb77a8b07ad38eee7fdcd73a4fe06c6ed91375ea7087ee58ed5d8aec4494",
+      "cc46322d5c4d41da447f26f7fa714827f2ec9a112968c12ef5736c7494985eca",
+      "0eaeadb58e6995ba85eccb6198aaef77eeb1d4b66699e4e1f3fc10eb6adfcdb9"
+    ]
+  },
+  "verdicts": {
+    "overall": {
+      "score": 0,
+      "categories": [],
+      "brands": [],
+      "tags": [],
+      "malicious": false,
+      "hasVerdicts": 0
+    },
+    "urlscan": {
+      "score": 0,
+      "categories": [],
+      "brands": [],
+      "tags": [],
+      "detectionDetails": [],
+      "malicious": false
+    },
+    "engines": {
+      "score": 0,
+      "malicious": [],
+      "benign": [],
+      "maliciousTotal": 0,
+      "benignTotal": 0,
+      "verdicts": [],
+      "enginesTotal": 0
+    },
+    "community": {
+      "score": 0,
+      "votes": [],
+      "votesTotal": 0,
+      "votesMalicious": 0,
+      "votesBenign": 0,
+      "tags": [],
+      "categories": []
+    }
+  },
+  "submitter": {
+    "country": "RU"
+  }
+}
